@@ -1,6 +1,6 @@
 # Calculator
 
-Self Explanatory
+Self Explanatory <br>
 A basic Flutter project.
 
 ## Packages Used
