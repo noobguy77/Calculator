@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:calculator/main.dart';
 
-class CalcButton extends StatelessWidget {
+class CalcButton_LandScape extends StatelessWidget {
   final String text;
   final Color textColor;
   final Color fillColor;
   final Function callback;
-  const CalcButton({
+  const CalcButton_LandScape({
     Key? key,
     required this.text,
     required this.fillColor,
@@ -18,10 +18,9 @@ class CalcButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(5),
       child: SizedBox(
-        width: 75,
-        height: 75,
+        width: 65,
+        height: 45,
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             primary: fillColor,
@@ -38,7 +37,7 @@ class CalcButton extends StatelessWidget {
             text,
             style: GoogleFonts.rubik(
               textStyle: TextStyle(
-                fontSize: 20,
+                fontSize: 12,
                 // color: Color(0xFFFFFF),
               ),
             ),
