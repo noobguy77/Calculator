@@ -1,13 +1,12 @@
-# Calculator
 
-Self Explanatory <br>
-A basic Flutter project.
+
+A basic Responsive Calculator.<br>
 
 ## Packages Used
 -google_fonts <br>
 -math_expressions
 
-### Pictures<br>
+### Screenshots<br>
 -Mobile<br>
 ![Landscape](https://github.com/noobguy77/Calculator/blob/master/calc_app1.PNG)
 
